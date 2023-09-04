@@ -16,7 +16,7 @@ const grupo = {
             edad: 40,
         },
     ],
-    descripcion: "Este es un grupo de trabajo muy profesional",
+    descripcion: "Este es un grupo de trabajo",
 };
 
 const App = () => {
