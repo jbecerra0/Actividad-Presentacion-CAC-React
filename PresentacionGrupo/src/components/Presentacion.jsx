@@ -3,7 +3,7 @@ import { useState } from "react";
 const Presentacion = ({ grupo }) => {
     const [indice, setIndice] = useState(0);
     const { integrantes, nombre, descripcion } = grupo;
-    const longitud = grupo.integrantes.length;
+    const longitud = integrantes.length;
 
     const handleSiguiente = () => {
         if (indice == longitud - 1) {

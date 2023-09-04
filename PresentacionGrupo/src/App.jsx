@@ -1,7 +1,7 @@
 import Presentacion from "./components/Presentacion";
-// Falta llenar el objeto con los datos reales
+
 const grupo = {
-    nombre: "Grupo 1",
+    nombre: "Dancin Guarriors",
     integrantes: [
         {
             nombre: "Jose",
@@ -16,7 +16,7 @@ const grupo = {
             edad: 40,
         },
     ],
-    descripcion: "Este es un grupo de trabajo",
+    descripcion: "Este es un grupo de trabajo muy profesional",
 };
 
 const App = () => {
