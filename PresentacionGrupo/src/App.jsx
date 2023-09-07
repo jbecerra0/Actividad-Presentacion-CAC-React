@@ -1,28 +1,28 @@
-import Presentacion from "./components/Presentacion";
+import Presentation from "./components/Presentation";
 
-const grupo = {
-    nombre: "Dancin Guarriors",
-    integrantes: [
+const team = {
+    name: "Dancin Guarriors",
+    members: [
         {
-            nombre: "Jose",
-            edad: 21,
+            name: "Jose",
+            age: 21,
         },
         {
-            nombre: "Miguel",
-            edad: 30,
+            name: "Miguel",
+            age: 30,
         },
         {
-            nombre: "Juan",
-            edad: 40,
+            name: "Juan",
+            age: 40,
         },
     ],
-    descripcion: "Este es un grupo de trabajo",
+    description: "Este es un grupo de trabajo",
 };
 
 const App = () => {
     return (
         <div className="d-flex justify-content-center align-items-center vh-100">
-            <Presentacion grupo={grupo} />
+            <Presentation team={team} />
         </div>
     );
 };
