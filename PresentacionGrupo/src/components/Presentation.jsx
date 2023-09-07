@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Member from "./Member";
 
 const Presentation = ({ team }) => {
     const [index, setIndex] = useState(0);
@@ -33,10 +34,7 @@ const Presentation = ({ team }) => {
                     {"<-"}
                 </button>
             </div>
-            <div className="row">
-                <h4>{members[index].name}</h4>
-                <h4>{members[index].age}</h4>
-            </div>
+            <Member name={members[index].name} age={members[index].age} />
             <div className="row">
                 <button className="btn btn-primary" onClick={handleNext}>
                     {"->"}
